@@ -799,7 +799,12 @@ p + p{
     max-width: 1536px;
   }
 }
-
+  .tabs-content {
+    display: none;
+  }
+  .tabs-content.active {
+    display: block;
+  }
 .disabled,
   :disabled{
   pointer-events: none !important;
