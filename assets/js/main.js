@@ -4,13 +4,7 @@
 var pageLoading = document.querySelector(".page-loading");
 
 if (pageLoading) {
-  window.addEventListener("load", () => {
-    pageLoading.classList.add("hide");
-
-    setTimeout(() => {
-      pageLoading.style.display = "none";
-    }, 1000);
-  });
+  pageLoading.style.display = "none"; // instantly hide
 }
 
 // Navbar
