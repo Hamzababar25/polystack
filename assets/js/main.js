@@ -1,11 +1,17 @@
 "use strict";
 
 // Page loading
-var pageLoading = document.querySelector(".page-loading");
+// var pageLoading = document.querySelector(".page-loading");
 
-if (pageLoading) {
-  pageLoading.style.display = "none"; // instantly hide
-}
+// if (pageLoading) {
+//   window.addEventListener("load", () => {
+//     pageLoading.classList.add("hide");
+
+//     setTimeout(() => {
+//       pageLoading.style.display = "none";
+//     }, 1000);
+//   });
+// }
 
 // Navbar
 const navbar = document.querySelector(".ic-navbar"),
