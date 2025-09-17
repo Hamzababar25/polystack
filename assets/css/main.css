@@ -800,11 +800,14 @@ p + p{
   }
 }
   .tabs-content {
-    display: none;
-  }
-  .tabs-content.active {
-    display: block;
-  }
+  display: none;
+}
+.tabs-content.active {
+  display: block;
+}
+.tabs-content.hide {
+  display: none;
+}
 .disabled,
   :disabled{
   pointer-events: none !important;
